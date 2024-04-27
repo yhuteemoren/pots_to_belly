@@ -1,0 +1,10 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 12,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.accessibilitySupport": "auto",
+    "editor.autoIndent": "full",
+    "editor.defaultColorDecorators": true
+}
