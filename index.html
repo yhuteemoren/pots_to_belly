@@ -24,44 +24,47 @@
         </div>
       </div>
     </div> 
+    <!--  --> 
+    
     <header>
-      <div class="background">
-        <img src="/assets/homepage/background image.avif" alt=""  style="width: 100vw; height: 98vh;">
-        <nav class="navbar">
-          <div class="logo">
-            <a href="index.html">Pots to  <span>Belly</span></a>
-          </div>
-          <div class="nav-links">
-            <a href="" class="nav-link">Home</a>
-            <a href="" class="nav-link">Menu</a>
-            <a href="" class="nav-link">About</a>
-            <a href="" class="nav-link">Services</a>
-            <a href="" class="nav-link">Contact</a>
-            <a href="" class="nav-link">Reservation</a>
-          </div>
-        </nav>
-      </div>
-    </header>
+    <div class="background">
+      <img src="/assets/homepage/background image.avif" alt=""  style="width: 100vw; height: 98vh;">
+      <nav class="navbar" id="navLinks">
+        <a href="index.html" class="logo">Pots to  <span>Belly</span></a>
+        <div class="nav-links" >
+              <a href="" class="nav-link" id="active">Home</a>
+              <a href="" class="nav-link">Menu</a>
+              <a href="" class="nav-link">About</a>
+              <a href="" class="nav-link">Services</a>
+              <a href="" class="nav-link">Contact</a>
+              <a href="" class="nav-link" id="reserve">Reservation</a>
+         </div>
+      </nav>
+    </div>
+    </header> 
     
     <!--  -->
     <section>
       <!-- aboout page -->
       <div class="home-about">
-        <h1>About</h1>
-        <h1>Pots To Belly.</h1>
-        <p>
-          Born from a love for Exceptional Food Quality and Culinary Innovation,
-          Pots To Belly invit
-          
-          es you on a culinary adventure that transcends the
-          plate. We believe in the power of food to connect, surprise, and
-          ignite your senses. Our menu showcases unforgettable dishes, crafted
-          with the freshest seasonal ingredients and every plate tells a story,
-          a testament to our dedication to quality and creativity. Join us, and
-          discover a world of delicious possibilities. Let's savor the
-          difference, one unforgettable bite at a time.
-        </p>
-        <img src="/assets/homepage/black chef.webp" alt="" />
+        <div class="home-about-headings">
+          <h1 class="home-about-heading">About</h1>
+          <h1 class="home-about-heading">Pots To Belly.</h1>
+        </div>
+        <div class="home-about-text-and-img">
+          <p class="home-about-text">
+            Born from a love for Exceptional Food Quality and Culinary Innovation,
+            Pots To Belly invites you on a culinary adventure that transcends the
+            plate. <br>We believe in the power of food to connect, surprise, and
+            ignite your senses. <br>Our menu showcases unforgettable dishes, crafted
+            with the freshest seasonal ingredients and every plate tells a story,
+            a testament to our dedication to quality and creativity. <br>Join us, and
+            discover a world of delicious possibilities. <br> Let's savor the
+            difference, one unforgettable bite at a time.
+          </p>
+          <img src="/assets/homepage/black chef.webp" alt="" class="home-about-image" width="500px" height="500px"/>
+        </div>
+        
       </div>
 
       <div class="catering -service-section">
@@ -145,5 +148,6 @@
           </div>
         </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
