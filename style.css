@@ -39,6 +39,9 @@
 .background, img{
     overflow-x: hidden;
 }
+.background-image{
+    filter: brightness(70%);
+}
 header{
     font-family: "lora", serif;
     font-size: 24px;
@@ -85,28 +88,21 @@ header{
     margin: 0 10px;
 }
 .home-about {
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
-    margin-top: 5%;
+    text-align: center;
+    margin-top: 4%;
     background-color: #f7dcb9;
-    color: black;
+    color: black;   
 }
 
 
 .home-about-headings{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     font-family: "lora", serif;
     font-weight: 400;
     font-size: 32px;
-    
+    opacity: 70%;
 }
 .home-about-heading:first-child{
-    margin-left: 25%;
-   margin-top: 15%; 
+  padding-top: 2%; 
 }
 
 .home-about-text-and-img{
@@ -115,8 +111,7 @@ header{
     margin-top: 4%;
     font-family: "inter", sans-serif;
     font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 5%;
+    font-size: 20px;
 
 }
 .home-about-text{
@@ -124,9 +119,52 @@ header{
     width: 40%;
     padding:0 40px 0 0;
     margin-top: 6%;
+    text-align: left;
+    opacity: 70%;
 }
 .home-about-image{
-    /* height: 100%;
-    width: 50%; */
+    margin-bottom: 5%;
+
     border-radius: 600px;
+}
+.catering-service-section{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+.catering-service-section h1{
+    font-family: "lora", serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.catering-service-section h4{
+    font-family: "lora", serif;
+    margin-bottom: 28px;
+    font-weight: 800;
+    opacity: 80%;
+    font-size: 24px;
+}
+.catering-service-section p{
+    margin-bottom: 24px;
+    font-weight: 400;
+    opacity: 80%;
+    font-size: 16px;
+    font-family: "inter", sans-serif;
+}
+.catering-service-section img{
+    background: #ee9219;
+    border-radius: 50%;
+}
+.catering-service-details{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+.birthday-section{
+    margin-right: 5%;
+}
+.Business-meeting-section{
+    margin-right: 5%;
+
 }
