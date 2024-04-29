@@ -4,18 +4,21 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 .mini_announcement{
-    background-color: rgb(151, 100, 33);
-    color: white;
+    background-color: #976421;
+    color:whitesmoke;
     padding: 5px;
-   
+   font-family: "inter", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
 }
 
 .min-ann{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .phoneNumber{
@@ -33,44 +36,97 @@
 .mailing p{
     padding-left: 10px;
 }
-.background{
+.background, img{
     overflow-x: hidden;
 }
-
-/* header{
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 15%; 
-    background: transparent; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-} */
-.navbar{
-    display: flex;
-    background-color: azure;
-    color: white;
-    /* justify-content:; */
-    margin-top: 2%;
-    border-radius: 5px;
-    padding: 20px;
-    
+header{
+    font-family: "lora", serif;
+    font-size: 24px;
+    font-weight: 400;
 }
+
 .logo{
-display: flex;
-padding: 0 10px;
+    position: absolute;
+    top: 13%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
 }
 
 .logo span{
-    color: red; 
+    color: #ee9219;
+    
+}
+#reserve{
+    background-color:  #ee9219;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+#active{
+    color: #ee9219;
+
+}
+.nav-links {
+    /* background-color: black;  */
+    padding: 10px 0 10px 10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border-radius: 50px;
+
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.home-about {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: #f7dcb9;
+    color: black;
 }
 
-.navbar a{
-    display: inline-block;
-    text-decoration: none;
-    justify-content: space-b;
-    margin-left: 35px;
+
+.home-about-headings{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: "lora", serif;
+    font-weight: 400;
+    font-size: 32px;
+    
 }
- 
+.home-about-heading:first-child{
+    margin-left: 25%;
+   margin-top: 15%; 
+}
+
+.home-about-text-and-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 5%;
+
+}
+.home-about-text{
+    line-height: 30px;
+    width: 40%;
+    padding:0 40px 0 0;
+    margin-top: 6%;
+}
+.home-about-image{
+    /* height: 100%;
+    width: 50%; */
+    border-radius: 600px;
+}
