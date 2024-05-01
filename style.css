@@ -40,11 +40,11 @@
     overflow-x: hidden;
 }
 .background-image{
-    filter: brightness(70%);
+    filter: brightness(60%);
 }
 header{
     font-family: "lora", serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -67,8 +67,12 @@ header{
     color: white;
     padding: 10px;
     border-radius: 50px;
-
 }
+#reserve:hover{
+    box-shadow: 3px 11px 39px -16px #ee9219;
+  border: 2px solid  #ee9219;
+}
+
 #active{
     color: #ee9219;
 
@@ -87,6 +91,9 @@ header{
     text-decoration: none;
     margin: 0 10px;
 }
+.nav-link:hover{
+    color: #ee9219;
+ }
 .home-about {
     text-align: center;
     margin-top: 4%;
@@ -150,12 +157,12 @@ header{
     margin-block-end: 1em;
     margin-bottom: 24px;
     font-weight: 400;
-    opacity: 80%;
+    opacity: 70%;
     font-size: 16px;
     font-family: "inter", sans-serif;
 }
 .catering-service-section img{
-    background: #ee9219;
+    background: #f7dcb9;
     border-radius: 50%;
 }
 .catering-service-details{
@@ -171,3 +178,22 @@ header{
     margin-right: 5%;
 
 }
+.the-menu{
+    background-color: #f7dcb9;
+}
+.the-menu h1{
+    font-family: "lora", serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.breakfast_class{
+    display: block;
+    border: 2px dashed rgb(16, 24, 39);
+    text-align: center;
+    
+}
+/* .breakfast-background-img{
+    width: 50px;
+    height: 50px;
+} */
