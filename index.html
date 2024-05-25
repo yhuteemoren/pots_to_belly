@@ -6,44 +6,37 @@
     <meta name="Pots-To-Belly" content="Restaurant website" />
     <meta name="author" content="Utibeabasi Umoren" />
     <title>Pots To Belly</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
-    <main>
-      <div class="mini_announcement">
+    <header class="hero">
+      <div class="hero-container">
         <div class="min-ann">
           <div class="phoneNumber">
-            <img src="/assets/homepage/phone icon.png" height="15" width="15" alt="">
+            <img src="/assets/homepage/phone icon.png" height="20" width="20" alt="">
             <p>+234 816 8989 932</p>
           </div>
           <div class="mailing">
-            <img src="/assets/homepage/email icon.png" height="15" width="15" alt="">
+            <img src="/assets/homepage/email.png" height="24" width="24" alt="">
             <p>potstobelly@gmail.com</p>
           </div>
           <div class="open-hrs">
             <p>Open hours: Monday - Saturday 8:00 - 22:00, Sunday 11:00 - 21:00</p>
           </div>
         </div>
-      </div> 
-    </main>
-    <!--  --> 
-    
-    <header>
-    <div class="background">
-      <img src="/assets/homepage/background image.avif" alt="" class="background-image" style="width: 100vw; height: 98vh;">
-      <nav class="navbar" id="navLinks">
-        <a href="index.html" class="logo">Pots to  <span>Belly</span></a>
-        <div class="nav-links" >
-              <a href="" class="nav-link" id="active">Home</a>
-              <a href="" class="nav-link">Menu</a>
-              <a href="" class="nav-link">About</a>
-              <a href="" class="nav-link">Services</a>
-              <a href="" class="nav-link">Contact</a>
-              <a href="" class="nav-link" id="reserve">Reservation</a>
-         </div>
+      </div>
+      <nav class="navbar">
+          <li> <a href="index.html" class="logo">Pots to  <span>Belly</span></a></li>
+        <ul class="navigation-bar">
+            <li><a href="#" class="nav-links" id="active">Home</a></li>
+            <li><a href="#" class="nav-links">Menu</a></li>
+            <li><a href="#" class="nav-links">About</a></li>
+            <li><a href="#" class="nav-links">Services</a></li>
+            <li><a href="#" class="nav-links">Contact</a></li>
+            <li><a href="#" class="nav-links" id="reserve">Reservation</a></li>
+        </ul>
       </nav>
-    </div>
-    </header> 
+    </header>
     
     <!--  -->
     <section>
@@ -96,64 +89,97 @@
       </div>
     </section>
 
-    <section class="the-menu">
-        <div>
-            <h1>Specialties</h1>
-            <h1>Our Menu</h1>
-        </div>
+    <section class="the-menu"> 
+      <div>
+        <h1>Specialties</h1>
+        <h1>Our Menu</h1>
+      </div>
+      
+        <div class="menu-wrap">
+             <div class="breakfast_class">
+                <div class="breakfast-background-img">
+                  <img src="/assets/menu/bread.png" alt="picture of bread" width="50">
+                  <img src="/assets/menu/breakfast.png" alt="breakfast replica" width="50">
+                </div>
+                <h3>Breakfast</h3>
+                <div class="breakfast-wrap">
+                    <div class="breakfast1">
+                      <img src="/assets/menu/breakfast/apple pie.jpeg" alt="apple pie" width="100">
+                      <h4> Apple Pie</h4>
+                      <p>Apple, Lemon, Sugar, Flour</p>
+                      <p class="price-tag"> $4.00</p>
+                    </div>
+                    <div class="breakfast2">
+                      <img src="/assets/menu/breakfast/Smash-burger-pancakes-55ff4d5.webp" alt="Smash-burger-pancakes" width="100">
+                      <h4> Smash Burger Pancakes</h4>
+                      <p>Beef mince, American cheese, Burger Sauce, Milk</p>
+                      <p class="price-tag"> $10.00</p>
+                    </div>
+                    <div class="breakfast3">
+                      <img src="/assets/menu/breakfast/waffles.avif" alt="waffles" width="100">
+                      <h4> Waffles</h4>
+                      <p>Egg, Whole Milk, Flour, Vanilla Extract</p>
+                      <p class="price-tag"> $15.00</p>
+                    </div>
+              </div>
+            </div> 
+            <!--  -->
 
-        <div class="breakfast_class">
-          <div class="breakfast-background-img">
-            <img src="/assets/menu/bread.png" alt="picture of bread" width="50">
-            <img src="/assets/menu/breakfast.png" alt="breakfast replica" width="50">
-          </div>
-          <h3>Breakfast</h3>
-          <div class="breakfast1">
-            <img src="/assets/menu/breakfast/apple pie.jpeg" alt="apple pie" width="100">
-            <h4> Apple Pie</h4>
-            <p>Apple, Lemon, Sugar, Flour</p>
-            <p class="price-tag"> $4.00</p>
-          </div>
-          <div class="breakfast2">
-            <img src="/assets/menu/breakfast/Smash-burger-pancakes-55ff4d5.webp" alt="Smash-burger-pancakes">
-            <h4> Smash Burger Pancakes</h4>
-            <p>Beef mince, American cheese, Burger Sauce, Milk</p>
-            <p class="price-tag"> $10.00</p>
-          </div>
-          <div class="breakfast3">
-            <img src="/assets/menu/breakfast/waffles.avif" alt="waffles">
-            <h4> Waffles</h4>
-            <p>Egg, Whole Milk, Flour, Vanilla Extract</p>
-            <p class="price-tag"> $15.00</p>
-          </div>
-        </div> 
-        <!--  -->
+            <div class="lunch_class">
+              <div class="lunch-background-img">
+                <img src="/assets/menu/pizza.png" alt="picture of pizza" width="50">
+              </div>
+              <h3>Lunch</h3>
+              <div class="lunch1">
+                <img src="/assets/menu/lunch/diner-sloppy-joes-6161e37.webp" alt="sloppy joes" width="100">
+                <h4> Sloppy Joes </h4>
+                <p>Ground Beef, Tomato Paste, Iceberg Lettuce</p>
+                <p class="price-tag"> $14.00</p>
+              </div>
+              <div class="lunch2">
+                <img src="/assets/menu/lunch/melon.jpg" alt="melon soup with fufu" width="100">
+                <h4> Melon Soup With Fufu</h4>
+                <p>Melon, Bitterleaf, Meat, </p>
+                <p class="price-tag"> $20.00</p>
+              </div>
+              <div class="lunch3">
+                <img src="/assets/menu/lunch/fried rice.webp" alt="fried rice with chicken" width="100">
+                <h4> Vegetable Frid Rice with Chicken</h4>
+                <p>Vegetables, Rice, Chikecn</p>
+                <p class="price-tag"> $10.00</p>
+              </div>
+            </div>
 
-        <div class="lunch_class">
-          <div class="lunch-background-img">
-            <img src="/assets/menu/pizza.png" alt="picture of pizza">
-          </div>
-          <h3>Lunch</h3>
-          <div class="lunch1">
-            <img src="/assets/menu/lunch/diner-sloppy-joes-6161e37.webp" alt="sloppy joes">
-            <h4> Sloppy Joes </h4>
-            <p>Ground Beef, Tomato Paste, Iceberg Lettuce</p>
-            <p class="price-tag"> $14.00</p>
-          </div>
-          <div class="lunch 2">
-            <img src="/assets/menu/lunch/melon.jpg" alt="melon soup with fufu">
-            <h4> Melon Soup With Fufu</h4>
-            <p>Melon, Bitterleaf, Meat, </p>
-            <p class="price-tag"> $20.00</p>
-          </div>
-          <div class="breakfast3">
-            <img src="/assets/menu/lunch/fried rice.webp" alt="fried rice with chicken">
-            <h4> Vegetable Frid Rice with Chicken</h4>
-            <p>Vegetables, Rice, Chikecn</p>
-            <p class="price-tag"> $10.00</p>
-          </div>
-        </div>
+            <div class="dinner_class">
+              <div class="lunch-background-img">
+                <img src="/assets/menu/rice.png" alt="picture of rice" width="50">
+              </div>
+              <h3>Lunch</h3>
+              <div class="lunch1">
+                <img src="/assets/menu/lunch/diner-sloppy-joes-6161e37.webp" alt="sloppy joes" width="100">
+                <h4> Sloppy Joes </h4>
+                <p>Ground Beef, Tomato Paste, Iceberg Lettuce</p>
+                <p class="price-tag"> $14.00</p>
+              </div>
+              <div class="lunch2">
+                <img src="/assets/menu/lunch/melon.jpg" alt="melon soup with fufu" width="100">
+                <h4> Melon Soup With Fufu</h4>
+                <p>Melon, Bitterleaf, Meat, </p>
+                <p class="price-tag"> $20.00</p>
+              </div>
+              <div class="lunch3">
+                <img src="/assets/menu/lunch/fried rice.webp" alt="fried rice with chicken" width="100">
+                <h4> Vegetable Frid Rice with Chicken</h4>
+                <p>Vegetables, Rice, Chikecn</p>
+                <p class="price-tag"> $10.00</p>
+              </div>
+            </div>
+         </div>
+          
     </section>
+    <footer>
+      &copy; This site is a product of Pots To Belly Resttaurant.
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
